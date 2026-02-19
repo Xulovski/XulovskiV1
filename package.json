@@ -1,0 +1,17 @@
+{
+  "name": "stremio-stalker-emulator",
+  "version": "0.0.1",
+  "description": "Addon Stremio para emular IPTV Stalker Portals (MAG compatible)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
+    "axios": "^1.6.7",
+    "node-cache": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
