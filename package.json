@@ -2,9 +2,9 @@
   "name": "stremio-stalker-emulator",
   "version": "0.0.1",
   "description": "Addon Stremio para emular IPTV Stalker Portals (MAG compatible)",
-  "main": "server.js",
+  "main": "xulovski.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node xulovski.js"
   },
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10",
@@ -13,5 +13,6 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "license": "MIT"
 }
